@@ -1,0 +1,18 @@
+Java Development kit (JDK) is one of the core technlogoy package used in Java programming along with the JVM(Java programming machine)& JRE(Java Runtime Environment).
+JDK allows developers to create Java program that cn be executed &run by JVM & JRE.
+
+JVM:- Enables computer to run Java program as well as other language program.
+JRE:-It is a software layer that run on the top of the computer's operating system software.
+
+class demo
+{
+  void func()
+  {
+    System.out.println("first progm");
+  }
+  public static void main(String args[])
+  {
+    demo obj = new demo();
+    obj.fun();
+  }
+}
