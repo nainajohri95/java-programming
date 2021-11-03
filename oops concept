@@ -1,0 +1,95 @@
+Object Oriented Programming Structure(OOPS)c
+
+Abstraction:-Focus on the essential part.
+Encapsulation:-Hiding of the non-esstential details.
+Polymorphism:-One thig many form.
+Types of Polymorphism:- 1.Static:- a.function overloading  b.operator overloading  2.Dynamic:- a.virtual function  b.late binding
+Inheritance:-When a class use the feature of antother class.
+Types of Interitance:- 1.Single Inheritance  2.Multiple Inheritance  3.Multilevel Inheritance
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Function overloading :-When a class contains more than one function which is having same name with diffrent arguments.
+class GLA
+{
+  void btech()
+  {
+    System.out.println("btech from CS ");
+  }
+  void btech(int acc)
+  {
+    System.out.println("btech from electrical ");
+  }
+  void btech(int a,int b)
+  {
+    System.out.println("btech from IT ");
+  }
+  public static void main(String args[])
+  {
+    GLA obj = new GLA();
+    obj.btech(10,20);
+  }
+}
+
+Single Inheritance:-
+
+class colour
+{
+  void red()
+  {
+    System.out.println("red colour");
+  }
+  class shape extends colour
+  {
+    void square()
+    {
+    System.out.println("square shape");
+    }
+    public static void main(String args[])
+    {
+      shape obj = new shape();
+      obj.square();
+      obj.colour();
+    }  
+}
+
+
+
+Multi-level inheritance:-
+
+class sunmicro
+{
+  void java()
+  {
+    System.out.println("java progm...");
+  }
+}
+class google extends sunmicro
+{
+  void  android()
+  {
+    System.out.println("android")
+  }
+  class orcle extends google
+{
+  void  DBMS()
+  {
+    System.out.println("asql")
+    piublic static void main(String args[])
+    {
+      oracle obj = new oracle();
+      obj.DBMS();
+      obj.java();
+      obj.android();
+    }
+ }
+  
+  
+
+
+
+
+
+
+
+
+
