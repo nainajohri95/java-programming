@@ -1,0 +1,18 @@
+//laragest no. among 3 numbers
+
+class largest 
+{
+  public static void main(String args[])
+  {
+    int a = Intger.parseInt(args[0]);
+    int b = Intger.parseInt(args[1]);
+    int c = Intger.parseInt(args[2]);
+    
+    if(a>=b && a>=c)
+      System.out.println(a);
+    if(b>=a && b>=c)
+      System.out.println(b);  
+     else
+      System.out.println(c);
+  }
+}
